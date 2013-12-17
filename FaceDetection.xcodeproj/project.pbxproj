@@ -21,6 +21,12 @@
 		96AED049185C767B009504E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AED02B185C767B009504E8 /* UIKit.framework */; };
 		96AED051185C767B009504E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96AED04F185C767B009504E8 /* InfoPlist.strings */; };
 		96AED053185C767B009504E8 /* FaceDetectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AED052185C767B009504E8 /* FaceDetectionTests.m */; };
+		96AED05D185C7A06009504E8 /* HMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96AED05C185C773D009504E8 /* HMViewController.xib */; };
+		96AED05F185C7B9C009504E8 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AED05E185C7B9C009504E8 /* CoreImage.framework */; };
+		96AED061185C7BB4009504E8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AED060185C7BB4009504E8 /* QuartzCore.framework */; };
+		96AED064185C7D0C009504E8 /* HappyMan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96AED063185C7D0C009504E8 /* HappyMan.jpg */; };
+		96AED066185C7EC3009504E8 /* may.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96AED065185C7EC3009504E8 /* may.jpg */; };
+		96AED068185C946C009504E8 /* zoaks crew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96AED067185C946C009504E8 /* zoaks crew.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		96AED04E185C767B009504E8 /* FaceDetectionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FaceDetectionTests-Info.plist"; sourceTree = "<group>"; };
 		96AED050185C767B009504E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96AED052185C767B009504E8 /* FaceDetectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceDetectionTests.m; sourceTree = "<group>"; };
+		96AED05C185C773D009504E8 /* HMViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HMViewController.xib; sourceTree = "<group>"; };
+		96AED05E185C7B9C009504E8 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		96AED060185C7BB4009504E8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		96AED063185C7D0C009504E8 /* HappyMan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HappyMan.jpg; sourceTree = "<group>"; };
+		96AED065185C7EC3009504E8 /* may.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = may.jpg; sourceTree = "<group>"; };
+		96AED067185C946C009504E8 /* zoaks crew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zoaks crew.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96AED061185C7BB4009504E8 /* QuartzCore.framework in Frameworks */,
+				96AED05F185C7B9C009504E8 /* CoreImage.framework in Frameworks */,
 				96AED02A185C767B009504E8 /* CoreGraphics.framework in Frameworks */,
 				96AED02C185C767B009504E8 /* UIKit.framework in Frameworks */,
 				96AED028185C767B009504E8 /* Foundation.framework in Frameworks */,
@@ -101,6 +115,8 @@
 		96AED026185C767B009504E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				96AED060185C7BB4009504E8 /* QuartzCore.framework */,
+				96AED05E185C7B9C009504E8 /* CoreImage.framework */,
 				96AED027185C767B009504E8 /* Foundation.framework */,
 				96AED029185C767B009504E8 /* CoreGraphics.framework */,
 				96AED02B185C767B009504E8 /* UIKit.framework */,
@@ -117,7 +133,9 @@
 				96AED039185C767B009504E8 /* Main.storyboard */,
 				96AED03C185C767B009504E8 /* HMViewController.h */,
 				96AED03D185C767B009504E8 /* HMViewController.m */,
+				96AED05C185C773D009504E8 /* HMViewController.xib */,
 				96AED03F185C767B009504E8 /* Images.xcassets */,
+				96AED062185C7D0C009504E8 /* Resources */,
 				96AED02E185C767B009504E8 /* Supporting Files */,
 			);
 			path = FaceDetection;
@@ -150,6 +168,16 @@
 				96AED04F185C767B009504E8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96AED062185C7D0C009504E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				96AED067185C946C009504E8 /* zoaks crew.jpg */,
+				96AED063185C7D0C009504E8 /* HappyMan.jpg */,
+				96AED065185C7EC3009504E8 /* may.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +257,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96AED064185C7D0C009504E8 /* HappyMan.jpg in Resources */,
 				96AED040185C767B009504E8 /* Images.xcassets in Resources */,
+				96AED068185C946C009504E8 /* zoaks crew.jpg in Resources */,
+				96AED05D185C7A06009504E8 /* HMViewController.xib in Resources */,
+				96AED066185C7EC3009504E8 /* may.jpg in Resources */,
 				96AED032185C767B009504E8 /* InfoPlist.strings in Resources */,
 				96AED03B185C767B009504E8 /* Main.storyboard in Resources */,
 			);

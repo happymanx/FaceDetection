@@ -10,4 +10,5 @@
 
 @interface HMViewController : UIViewController
 
+@property (nonatomic, retain) IBOutlet UIImageView *imageView;
 @end
