@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		963E996F1D012B160094B6E7 /* star icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 963E996E1D012B160094B6E7 /* star icon.png */; };
+		963E99711D012BE70094B6E7 /* Zoakers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 963E99701D012BE70094B6E7 /* Zoakers.jpg */; };
+		963E99741D0134C50094B6E7 /* Contact lenses.png in Resources */ = {isa = PBXBuildFile; fileRef = 963E99721D0134C50094B6E7 /* Contact lenses.png */; };
+		963E99751D0134C50094B6E7 /* Contact lenses2.png in Resources */ = {isa = PBXBuildFile; fileRef = 963E99731D0134C50094B6E7 /* Contact lenses2.png */; };
+		9652B6E21B588EE000EDD8C6 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9652B6E11B588EE000EDD8C6 /* test.jpg */; };
 		96AED028185C767B009504E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AED027185C767B009504E8 /* Foundation.framework */; };
 		96AED02A185C767B009504E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AED029185C767B009504E8 /* CoreGraphics.framework */; };
 		96AED02C185C767B009504E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AED02B185C767B009504E8 /* UIKit.framework */; };
@@ -40,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		963E996E1D012B160094B6E7 /* star icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star icon.png"; sourceTree = "<group>"; };
+		963E99701D012BE70094B6E7 /* Zoakers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zoakers.jpg; sourceTree = "<group>"; };
+		963E99721D0134C50094B6E7 /* Contact lenses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Contact lenses.png"; sourceTree = "<group>"; };
+		963E99731D0134C50094B6E7 /* Contact lenses2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Contact lenses2.png"; sourceTree = "<group>"; };
+		9652B6E11B588EE000EDD8C6 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 		96AED024185C767B009504E8 /* FaceDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96AED027185C767B009504E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		96AED029185C767B009504E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -128,9 +138,9 @@
 		96AED02D185C767B009504E8 /* FaceDetection */ = {
 			isa = PBXGroup;
 			children = (
+				96AED039185C767B009504E8 /* Main.storyboard */,
 				96AED036185C767B009504E8 /* HMAppDelegate.h */,
 				96AED037185C767B009504E8 /* HMAppDelegate.m */,
-				96AED039185C767B009504E8 /* Main.storyboard */,
 				96AED03C185C767B009504E8 /* HMViewController.h */,
 				96AED03D185C767B009504E8 /* HMViewController.m */,
 				96AED05C185C773D009504E8 /* HMViewController.xib */,
@@ -173,6 +183,11 @@
 		96AED062185C7D0C009504E8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				963E99721D0134C50094B6E7 /* Contact lenses.png */,
+				963E99731D0134C50094B6E7 /* Contact lenses2.png */,
+				963E99701D012BE70094B6E7 /* Zoakers.jpg */,
+				963E996E1D012B160094B6E7 /* star icon.png */,
+				9652B6E11B588EE000EDD8C6 /* test.jpg */,
 				96AED067185C946C009504E8 /* zoaks crew.jpg */,
 				96AED063185C7D0C009504E8 /* HappyMan.jpg */,
 				96AED065185C7EC3009504E8 /* may.jpg */,
@@ -257,13 +272,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				963E996F1D012B160094B6E7 /* star icon.png in Resources */,
 				96AED064185C7D0C009504E8 /* HappyMan.jpg in Resources */,
 				96AED040185C767B009504E8 /* Images.xcassets in Resources */,
 				96AED068185C946C009504E8 /* zoaks crew.jpg in Resources */,
 				96AED05D185C7A06009504E8 /* HMViewController.xib in Resources */,
+				963E99711D012BE70094B6E7 /* Zoakers.jpg in Resources */,
 				96AED066185C7EC3009504E8 /* may.jpg in Resources */,
+				963E99741D0134C50094B6E7 /* Contact lenses.png in Resources */,
 				96AED032185C767B009504E8 /* InfoPlist.strings in Resources */,
 				96AED03B185C767B009504E8 /* Main.storyboard in Resources */,
+				963E99751D0134C50094B6E7 /* Contact lenses2.png in Resources */,
+				9652B6E21B588EE000EDD8C6 /* test.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +430,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FaceDetection/FaceDetection-Prefix.pch";
 				INFOPLIST_FILE = "FaceDetection/FaceDetection-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -423,6 +444,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FaceDetection/FaceDetection-Prefix.pch";
 				INFOPLIST_FILE = "FaceDetection/FaceDetection-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -487,6 +509,7 @@
 				96AED058185C767B009504E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96AED059185C767B009504E8 /* Build configuration list for PBXNativeTarget "FaceDetectionTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +518,7 @@
 				96AED05B185C767B009504E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

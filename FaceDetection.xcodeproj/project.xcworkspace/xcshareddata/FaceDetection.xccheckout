@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AAAEBAC0-9AEC-407B-B9EF-1B9508CC085E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FAAC32657AD976F9F34065E1992A92B8CE5162AE</key>
+		<string>https://github.com/happymanx/FaceDetection.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FaceDetection.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FAAC32657AD976F9F34065E1992A92B8CE5162AE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/happymanx/FaceDetection.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FAAC32657AD976F9F34065E1992A92B8CE5162AE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FAAC32657AD976F9F34065E1992A92B8CE5162AE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FaceDetection</string>
+		</dict>
+	</array>
+</dict>
+</plist>

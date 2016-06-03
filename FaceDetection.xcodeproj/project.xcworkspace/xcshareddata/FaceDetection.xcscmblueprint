@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FAAC32657AD976F9F34065E1992A92B8CE5162AE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8033A6C22477E893BE9FF2D983494DF824EB5FAB" : 0,
+    "FAAC32657AD976F9F34065E1992A92B8CE5162AE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AAAEBAC0-9AEC-407B-B9EF-1B9508CC085E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8033A6C22477E893BE9FF2D983494DF824EB5FAB" : "",
+    "FAAC32657AD976F9F34065E1992A92B8CE5162AE" : "FaceDetection\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FaceDetection",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FaceDetection.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/HappyManx\/fatmeterble.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8033A6C22477E893BE9FF2D983494DF824EB5FAB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/happymanx\/FaceDetection.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FAAC32657AD976F9F34065E1992A92B8CE5162AE"
+    }
+  ]
+}

@@ -7,6 +7,7 @@
 //
 
 #import "HMViewController.h"
+#import <AssetsLibrary/AssetsLibrary.h>
 
 @interface HMViewController ()
 
@@ -71,44 +72,55 @@
         
         if(faceFeature.hasLeftEyePosition)
         {
-            // create a UIView with a size based on the width of the face
-            UIView* leftEyeView = [[UIView alloc] initWithFrame:CGRectMake(faceFeature.leftEyePosition.x-faceWidth*0.15, faceFeature.leftEyePosition.y-faceWidth*0.15, faceWidth*0.3, faceWidth*0.3)];
-            // change the background color of the eye view
-            [leftEyeView setBackgroundColor:[[UIColor blueColor] colorWithAlphaComponent:0.3]];
-            // set the position of the leftEyeView based on the face
-            [leftEyeView setCenter:faceFeature.leftEyePosition];
-            // round the corners
-            leftEyeView.layer.cornerRadius = faceWidth*0.15;
-            // add the view to the window
-            [self.imageView addSubview:leftEyeView];
+//            // create a UIView with a size based on the width of the face
+//            UIView* leftEyeView = [[UIView alloc] initWithFrame:CGRectMake(faceFeature.leftEyePosition.x-faceWidth*0.15, faceFeature.leftEyePosition.y-faceWidth*0.15, faceWidth*0.3, faceWidth*0.3)];
+//            // change the background color of the eye view
+//            [leftEyeView setBackgroundColor:[[UIColor blueColor] colorWithAlphaComponent:0.3]];
+//            // set the position of the leftEyeView based on the face
+//            [leftEyeView setCenter:faceFeature.leftEyePosition];
+//            // round the corners
+//            leftEyeView.layer.cornerRadius = faceWidth*0.15;
+//            // add the view to the window
+//            [self.imageView addSubview:leftEyeView];
+            
+            UIImageView *starImageView = [[UIImageView alloc] initWithFrame:CGRectMake(faceFeature.leftEyePosition.x, faceFeature.leftEyePosition.y, faceWidth*0.12, faceWidth*0.12)];
+            starImageView.center = CGPointMake(faceFeature.leftEyePosition.x, faceFeature.leftEyePosition.y);
+            [starImageView setImage:[UIImage imageNamed:@"Contact lenses.png"]];
+            [self.imageView addSubview:starImageView];
         }
         
         if(faceFeature.hasRightEyePosition)
         {
-            // create a UIView with a size based on the width of the face
-            UIView* leftEye = [[UIView alloc] initWithFrame:CGRectMake(faceFeature.rightEyePosition.x-faceWidth*0.15, faceFeature.rightEyePosition.y-faceWidth*0.15, faceWidth*0.3, faceWidth*0.3)];
-            // change the background color of the eye view
-            [leftEye setBackgroundColor:[[UIColor blueColor] colorWithAlphaComponent:0.3]];
-            // set the position of the rightEyeView based on the face
-            [leftEye setCenter:faceFeature.rightEyePosition];
-            // round the corners
-            leftEye.layer.cornerRadius = faceWidth*0.15;
-            // add the new view to the window
-            [self.imageView addSubview:leftEye];
+//            // create a UIView with a size based on the width of the face
+//            UIView* leftEye = [[UIView alloc] initWithFrame:CGRectMake(faceFeature.rightEyePosition.x-faceWidth*0.15, faceFeature.rightEyePosition.y-faceWidth*0.15, faceWidth*0.3, faceWidth*0.3)];
+//            // change the background color of the eye view
+//            [leftEye setBackgroundColor:[[UIColor blueColor] colorWithAlphaComponent:0.3]];
+//            // set the position of the rightEyeView based on the face
+//            [leftEye setCenter:faceFeature.rightEyePosition];
+//            // round the corners
+//            leftEye.layer.cornerRadius = faceWidth*0.15;
+//            // add the new view to the window
+//            [self.imageView addSubview:leftEye];
+            
+            UIImageView *starImageView = [[UIImageView alloc] initWithFrame:CGRectMake(faceFeature.leftEyePosition.x, faceFeature.leftEyePosition.y, faceWidth*0.12, faceWidth*0.12)];
+            starImageView.center = CGPointMake(faceFeature.rightEyePosition.x, faceFeature.rightEyePosition.y);
+            [starImageView setImage:[UIImage imageNamed:@"Contact lenses.png"]];
+            [self.imageView addSubview:starImageView];
+
         }
         
         if(faceFeature.hasMouthPosition)
         {
-            // create a UIView with a size based on the width of the face
-            UIView* mouth = [[UIView alloc] initWithFrame:CGRectMake(faceFeature.mouthPosition.x-faceWidth*0.2, faceFeature.mouthPosition.y-faceWidth*0.2, faceWidth*0.4, faceWidth*0.4)];
-            // change the background color for the mouth to green
-            [mouth setBackgroundColor:[[UIColor greenColor] colorWithAlphaComponent:0.3]];
-            // set the position of the mouthView based on the face
-            [mouth setCenter:faceFeature.mouthPosition];
-            // round the corners
-            mouth.layer.cornerRadius = faceWidth*0.2;
-            // add the new view to the window
-            [self.imageView addSubview:mouth];
+//            // create a UIView with a size based on the width of the face
+//            UIView* mouth = [[UIView alloc] initWithFrame:CGRectMake(faceFeature.mouthPosition.x-faceWidth*0.2, faceFeature.mouthPosition.y-faceWidth*0.2, faceWidth*0.4, faceWidth*0.4)];
+//            // change the background color for the mouth to green
+//            [mouth setBackgroundColor:[[UIColor greenColor] colorWithAlphaComponent:0.3]];
+//            // set the position of the mouthView based on the face
+//            [mouth setCenter:faceFeature.mouthPosition];
+//            // round the corners
+//            mouth.layer.cornerRadius = faceWidth*0.2;
+//            // add the new view to the window
+//            [self.imageView addSubview:mouth];
         }
     }
 }
@@ -116,13 +128,13 @@
 -(void)faceDetector
 {
     // Load the picture for face detection
-    UIImageView* image = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"HappyMan.jpg"]];
+    UIImageView* image = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"may.jpg"]];
     
     // Draw the face detection image
     [self.imageView addSubview:image];
     
     // Execute the method used to markFaces in background
-    [self performSelectorInBackground:@selector(markFaces:) withObject:image];
+    [self performSelector:@selector(markFaces:) withObject:image];
     
     // flip image on y-axis to match coordinate system used by core image
     [image setTransform:CGAffineTransformMakeScale(1, -1)];
